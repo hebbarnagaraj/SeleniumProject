@@ -44,7 +44,14 @@ public class baseClass {
 	}
 
 	public static void waitforelementclickable(WebElement ele) {
-		WebDriverWait wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.elementToBeClickable(ele));
+	
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, 50);
+			wait.until(ExpectedConditions.elementToBeClickable(ele));
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+		
+			e.printStackTrace();
+		}
 	}
 }
