@@ -50,23 +50,24 @@ public class actionClass extends baseClass{
 		WebElement toElement = driver.findElement(By.xpath("//*[@id='bank']//li"));
 		baseClass.waitforelementclickable(fromElement);
 		
-		act.dragAndDrop(fromElement, toElement);
+		act.dragAndDrop(fromElement, toElement).perform();
 		System.out.println("=========Drag and Drop Worked==========");
 	}
 	
 	@Test
-	public void movetoElementAction() {
+	public void movetoElementAction() throws Exception {
 		act = new Actions(driver);
 		
 		String expectedText = "What's new in 3.2";
 		
 		driver.get("http://demo.guru99.com/test/tooltip.html");
-		WebElement downloadbtn = driver.findElement(By.xpath(".//*[@id='download_now']"));
-		baseClass.waitforelementclickable(downloadbtn);
-		act.clickAndHold().moveToElement(downloadbtn);
+		WebElement downloadbtn = driver.findElement(By.xpath("//*[@class='box']//*[.='Download now']"));
+		act.clickAndHold().moveToElement(downloadbtn).perform();
+		Thread.sleep(4000);
 		WebElement tooltipElement = driver.findElement(By.xpath(".//*[@class='box']/div/a"));
-		baseClass.waitforelementclickable(tooltipElement);
+		Thread.sleep(4000);
 		String tooltext = tooltipElement.getText();
+		Thread.sleep(4000);
 		System.out.println("============Move to element Worked===============");
 		System.out.println("Actual Tool tip Text is :"+tooltext);
 		Assert.assertEquals(tooltext, expectedText);
