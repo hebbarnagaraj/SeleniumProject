@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26533" started-at="2021-10-07T12:18:24Z" finished-at="2021-10-07T12:18:51Z">
+  <suite name="Default suite" duration-ms="46184" started-at="2021-10-08T09:35:11Z" finished-at="2021-10-08T09:35:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26533" started-at="2021-10-07T12:18:24Z" finished-at="2021-10-07T12:18:51Z">
-      <class name="ActionPackage.actionClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:ActionPackage.actionClass@2928854b]" name="setUp" is-config="true" duration-ms="1945" started-at="2021-10-07T17:48:24Z" finished-at="2021-10-07T17:48:26Z">
+    <test name="Default test" duration-ms="46184" started-at="2021-10-08T09:35:11Z" finished-at="2021-10-08T09:35:57Z">
+      <class name="ExcelPackage.HandlingPropertyFiles">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ExcelPackage.HandlingPropertyFiles@77167fb7]" name="setUp" is-config="true" duration-ms="2847" started-at="2021-10-08T15:05:11Z" finished-at="2021-10-08T15:05:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="contextclickAction()[pri:0, instance:ActionPackage.actionClass@2928854b]" name="contextclickAction" duration-ms="3033" started-at="2021-10-07T17:48:26Z" finished-at="2021-10-07T17:48:29Z">
+        <test-method status="PASS" signature="propertyFiles()[pri:0, instance:ExcelPackage.HandlingPropertyFiles@77167fb7]" name="propertyFiles" duration-ms="42591" started-at="2021-10-08T15:05:14Z" finished-at="2021-10-08T15:05:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contextclickAction -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:ActionPackage.actionClass@2928854b]" name="teardown" is-config="true" duration-ms="650" started-at="2021-10-07T17:48:29Z" finished-at="2021-10-07T17:48:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:ActionPackage.actionClass@2928854b]" name="setUp" is-config="true" duration-ms="1299" started-at="2021-10-07T17:48:30Z" finished-at="2021-10-07T17:48:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dragAnddropAction()[pri:0, instance:ActionPackage.actionClass@2928854b]" name="dragAnddropAction" duration-ms="4512" started-at="2021-10-07T17:48:31Z" finished-at="2021-10-07T17:48:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dragAnddropAction -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:ActionPackage.actionClass@2928854b]" name="teardown" is-config="true" duration-ms="652" started-at="2021-10-07T17:48:36Z" finished-at="2021-10-07T17:48:36Z">
+        </test-method> <!-- propertyFiles -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:ExcelPackage.HandlingPropertyFiles@77167fb7]" name="teardown" is-config="true" duration-ms="709" started-at="2021-10-08T15:05:56Z" finished-at="2021-10-08T15:05:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:ActionPackage.actionClass@2928854b]" name="setUp" is-config="true" duration-ms="1227" started-at="2021-10-07T17:48:36Z" finished-at="2021-10-07T17:48:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dubleclickAction()[pri:0, instance:ActionPackage.actionClass@2928854b]" name="dubleclickAction" duration-ms="3249" started-at="2021-10-07T17:48:38Z" finished-at="2021-10-07T17:48:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dubleclickAction -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:ActionPackage.actionClass@2928854b]" name="teardown" is-config="true" duration-ms="643" started-at="2021-10-07T17:48:41Z" finished-at="2021-10-07T17:48:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:ActionPackage.actionClass@2928854b]" name="setUp" is-config="true" duration-ms="1229" started-at="2021-10-07T17:48:41Z" finished-at="2021-10-07T17:48:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="movetoElementAction()[pri:0, instance:ActionPackage.actionClass@2928854b]" name="movetoElementAction" duration-ms="7340" started-at="2021-10-07T17:48:43Z" finished-at="2021-10-07T17:48:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- movetoElementAction -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:ActionPackage.actionClass@2928854b]" name="teardown" is-config="true" duration-ms="718" started-at="2021-10-07T17:48:50Z" finished-at="2021-10-07T17:48:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- ActionPackage.actionClass -->
+      </class> <!-- ExcelPackage.HandlingPropertyFiles -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
