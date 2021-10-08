@@ -1,25 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46184" started-at="2021-10-08T09:35:11Z" finished-at="2021-10-08T09:35:57Z">
+  <suite name="Default suite" duration-ms="193164" started-at="2021-10-08T13:26:32Z" finished-at="2021-10-08T13:29:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46184" started-at="2021-10-08T09:35:11Z" finished-at="2021-10-08T09:35:57Z">
-      <class name="ExcelPackage.HandlingPropertyFiles">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:ExcelPackage.HandlingPropertyFiles@77167fb7]" name="setUp" is-config="true" duration-ms="2847" started-at="2021-10-08T15:05:11Z" finished-at="2021-10-08T15:05:14Z">
+    <test name="Default test" duration-ms="193164" started-at="2021-10-08T13:26:32Z" finished-at="2021-10-08T13:29:45Z">
+      <class name="ExcelPackage.handlingExcelFiles">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ExcelPackage.handlingExcelFiles@37e547da]" name="setUp" is-config="true" duration-ms="2717" started-at="2021-10-08T18:56:32Z" finished-at="2021-10-08T18:56:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="propertyFiles()[pri:0, instance:ExcelPackage.HandlingPropertyFiles@77167fb7]" name="propertyFiles" duration-ms="42591" started-at="2021-10-08T15:05:14Z" finished-at="2021-10-08T15:05:56Z">
+        <test-method status="PASS" signature="testDataexcel(java.lang.String, java.lang.String)[pri:0, instance:ExcelPackage.handlingExcelFiles@37e547da]" name="testDataexcel" duration-ms="48903" started-at="2021-10-08T18:56:35Z" data-provider="getdataExcel" finished-at="2021-10-08T18:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- propertyFiles -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:ExcelPackage.HandlingPropertyFiles@77167fb7]" name="teardown" is-config="true" duration-ms="709" started-at="2021-10-08T15:05:56Z" finished-at="2021-10-08T15:05:57Z">
+        </test-method> <!-- testDataexcel -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:ExcelPackage.handlingExcelFiles@37e547da]" name="teardown" is-config="true" duration-ms="695" started-at="2021-10-08T18:57:24Z" finished-at="2021-10-08T18:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- ExcelPackage.HandlingPropertyFiles -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ExcelPackage.handlingExcelFiles@37e547da]" name="setUp" is-config="true" duration-ms="2032" started-at="2021-10-08T18:57:25Z" finished-at="2021-10-08T18:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDataexcel(java.lang.String, java.lang.String)[pri:0, instance:ExcelPackage.handlingExcelFiles@37e547da]" name="testDataexcel" duration-ms="41085" started-at="2021-10-08T18:57:27Z" data-provider="getdataExcel" finished-at="2021-10-08T18:58:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataexcel -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:ExcelPackage.handlingExcelFiles@37e547da]" name="teardown" is-config="true" duration-ms="725" started-at="2021-10-08T18:58:08Z" finished-at="2021-10-08T18:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ExcelPackage.handlingExcelFiles@37e547da]" name="setUp" is-config="true" duration-ms="2096" started-at="2021-10-08T18:58:08Z" finished-at="2021-10-08T18:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDataexcel(java.lang.String, java.lang.String)[pri:0, instance:ExcelPackage.handlingExcelFiles@37e547da]" name="testDataexcel" duration-ms="44074" started-at="2021-10-08T18:58:11Z" data-provider="getdataExcel" finished-at="2021-10-08T18:58:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataexcel -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:ExcelPackage.handlingExcelFiles@37e547da]" name="teardown" is-config="true" duration-ms="727" started-at="2021-10-08T18:58:55Z" finished-at="2021-10-08T18:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ExcelPackage.handlingExcelFiles@37e547da]" name="setUp" is-config="true" duration-ms="2040" started-at="2021-10-08T18:58:55Z" finished-at="2021-10-08T18:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDataexcel(java.lang.String, java.lang.String)[pri:0, instance:ExcelPackage.handlingExcelFiles@37e547da]" name="testDataexcel" duration-ms="46946" started-at="2021-10-08T18:58:57Z" data-provider="getdataExcel" finished-at="2021-10-08T18:59:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataexcel -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:ExcelPackage.handlingExcelFiles@37e547da]" name="teardown" is-config="true" duration-ms="731" started-at="2021-10-08T18:59:44Z" finished-at="2021-10-08T18:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ExcelPackage.handlingExcelFiles -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

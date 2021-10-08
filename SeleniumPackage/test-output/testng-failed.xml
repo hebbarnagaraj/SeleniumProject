@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ExcelPackage.HandlingPropertyFiles">
+      <class name="ExcelPackage.handlingExcelFiles">
         <methods>
-          <include name="setUp"/>
-          <include name="teardown"/>
-          <include name="propertyFiles"/>
+          <include name="testDataexcel"/>
         </methods>
-      </class> <!-- ExcelPackage.HandlingPropertyFiles -->
+      </class> <!-- ExcelPackage.handlingExcelFiles -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
