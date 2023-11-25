@@ -3,12 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="InterviewQuestions.BrokenLinks">
+      <class name="com.orangehrmlive.demo.opensource.tests.AddEmployee">
         <methods>
+          <include name="testaddEmployee"/>
+          <include name="teardown"/>
+          <include name="login"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verifylinks"/>
         </methods>
-      </class> <!-- InterviewQuestions.BrokenLinks -->
+      </class> <!-- com.orangehrmlive.demo.opensource.tests.AddEmployee -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
